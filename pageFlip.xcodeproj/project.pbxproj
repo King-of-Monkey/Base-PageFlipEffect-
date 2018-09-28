@@ -34,6 +34,7 @@
 		378465651D854C7500790C3C /* SelectedIconButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 378465641D854C7500790C3C /* SelectedIconButton.m */; };
 		378465671D854E6B00790C3C /* c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 378465661D854E6B00790C3C /* c@2x.png */; };
 		3784656A1D85528600790C3C /* UIView+AnimationProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 378465691D85528600790C3C /* UIView+AnimationProperty.m */; };
+		37BD8F28215E25F500AD2105 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BD8F27215E25F500AD2105 /* Default-568h@2x.png */; };
 		37BE38961D85438C00BE540D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BE38951D85438C00BE540D /* main.m */; };
 		37BE38991D85438C00BE540D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BE38981D85438C00BE540D /* AppDelegate.m */; };
 		37BE389C1D85438C00BE540D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BE389B1D85438C00BE540D /* ViewController.m */; };
@@ -128,7 +129,8 @@
 		378465661D854E6B00790C3C /* c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "c@2x.png"; sourceTree = "<group>"; };
 		378465681D85528600790C3C /* UIView+AnimationProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationProperty.h"; sourceTree = "<group>"; };
 		378465691D85528600790C3C /* UIView+AnimationProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationProperty.m"; sourceTree = "<group>"; };
-		37BE38911D85438C00BE540D /* Base按钮合集.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Base按钮合集.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BD8F27215E25F500AD2105 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		37BE38911D85438C00BE540D /* pageFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pageFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BE38951D85438C00BE540D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37BE38971D85438C00BE540D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37BE38981D85438C00BE540D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,10 +140,10 @@
 		37BE38A01D85438C00BE540D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37BE38A31D85438C00BE540D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37BE38A51D85438C00BE540D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37BE38AA1D85438C00BE540D /* Base按钮合集Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base按钮合集Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BE38AA1D85438C00BE540D /* pageFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BE38AE1D85438C00BE540D /* Base____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Base____Tests.m"; sourceTree = "<group>"; };
 		37BE38B01D85438C00BE540D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37BE38B51D85438C00BE540D /* Base按钮合集UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Base按钮合集UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BE38B51D85438C00BE540D /* pageFlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pageFlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BE38B91D85438C00BE540D /* Base____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Base____UITests.m"; sourceTree = "<group>"; };
 		37BE38BB1D85438C00BE540D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -249,9 +251,10 @@
 		37BE38881D85438C00BE540D = {
 			isa = PBXGroup;
 			children = (
-				37BE38931D85438C00BE540D /* Base按钮合集 */,
-				37BE38AD1D85438C00BE540D /* Base按钮合集Tests */,
-				37BE38B81D85438C00BE540D /* Base按钮合集UITests */,
+				37BD8F27215E25F500AD2105 /* Default-568h@2x.png */,
+				37BE38931D85438C00BE540D /* pageFlip */,
+				37BE38AD1D85438C00BE540D /* pageFlip */,
+				37BE38B81D85438C00BE540D /* pageFlip */,
 				37BE38921D85438C00BE540D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -259,14 +262,14 @@
 		37BE38921D85438C00BE540D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37BE38911D85438C00BE540D /* Base按钮合集.app */,
-				37BE38AA1D85438C00BE540D /* Base按钮合集Tests.xctest */,
-				37BE38B51D85438C00BE540D /* Base按钮合集UITests.xctest */,
+				37BE38911D85438C00BE540D /* pageFlip.app */,
+				37BE38AA1D85438C00BE540D /* pageFlipTests.xctest */,
+				37BE38B51D85438C00BE540D /* pageFlipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37BE38931D85438C00BE540D /* Base按钮合集 */ = {
+		37BE38931D85438C00BE540D /* pageFlip */ = {
 			isa = PBXGroup;
 			children = (
 				37575F0D1D86A07D00AC0B5A /* pop */,
@@ -294,7 +297,7 @@
 				378465631D854C7500790C3C /* SelectedIconButton.h */,
 				378465641D854C7500790C3C /* SelectedIconButton.m */,
 			);
-			path = "Base按钮合集";
+			path = pageFlip;
 			sourceTree = "<group>";
 		};
 		37BE38941D85438C00BE540D /* Supporting Files */ = {
@@ -305,30 +308,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		37BE38AD1D85438C00BE540D /* Base按钮合集Tests */ = {
+		37BE38AD1D85438C00BE540D /* pageFlip */ = {
 			isa = PBXGroup;
 			children = (
 				37BE38AE1D85438C00BE540D /* Base____Tests.m */,
 				37BE38B01D85438C00BE540D /* Info.plist */,
 			);
+			name = pageFlip;
 			path = "Base按钮合集Tests";
 			sourceTree = "<group>";
 		};
-		37BE38B81D85438C00BE540D /* Base按钮合集UITests */ = {
+		37BE38B81D85438C00BE540D /* pageFlip */ = {
 			isa = PBXGroup;
 			children = (
 				37BE38B91D85438C00BE540D /* Base____UITests.m */,
 				37BE38BB1D85438C00BE540D /* Info.plist */,
 			);
+			name = pageFlip;
 			path = "Base按钮合集UITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37BE38901D85438C00BE540D /* Base按钮合集 */ = {
+		37BE38901D85438C00BE540D /* pageFlip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37BE38BE1D85438C00BE540D /* Build configuration list for PBXNativeTarget "Base按钮合集" */;
+			buildConfigurationList = 37BE38BE1D85438C00BE540D /* Build configuration list for PBXNativeTarget "pageFlip" */;
 			buildPhases = (
 				37BE388D1D85438C00BE540D /* Sources */,
 				37BE388E1D85438C00BE540D /* Frameworks */,
@@ -338,14 +343,14 @@
 			);
 			dependencies = (
 			);
-			name = "Base按钮合集";
+			name = pageFlip;
 			productName = "Base按钮合集";
-			productReference = 37BE38911D85438C00BE540D /* Base按钮合集.app */;
+			productReference = 37BE38911D85438C00BE540D /* pageFlip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		37BE38A91D85438C00BE540D /* Base按钮合集Tests */ = {
+		37BE38A91D85438C00BE540D /* pageFlipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37BE38C11D85438C00BE540D /* Build configuration list for PBXNativeTarget "Base按钮合集Tests" */;
+			buildConfigurationList = 37BE38C11D85438C00BE540D /* Build configuration list for PBXNativeTarget "pageFlipTests" */;
 			buildPhases = (
 				37BE38A61D85438C00BE540D /* Sources */,
 				37BE38A71D85438C00BE540D /* Frameworks */,
@@ -356,14 +361,14 @@
 			dependencies = (
 				37BE38AC1D85438C00BE540D /* PBXTargetDependency */,
 			);
-			name = "Base按钮合集Tests";
+			name = pageFlipTests;
 			productName = "Base按钮合集Tests";
-			productReference = 37BE38AA1D85438C00BE540D /* Base按钮合集Tests.xctest */;
+			productReference = 37BE38AA1D85438C00BE540D /* pageFlipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		37BE38B41D85438C00BE540D /* Base按钮合集UITests */ = {
+		37BE38B41D85438C00BE540D /* pageFlipUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37BE38C41D85438C00BE540D /* Build configuration list for PBXNativeTarget "Base按钮合集UITests" */;
+			buildConfigurationList = 37BE38C41D85438C00BE540D /* Build configuration list for PBXNativeTarget "pageFlipUITests" */;
 			buildPhases = (
 				37BE38B11D85438C00BE540D /* Sources */,
 				37BE38B21D85438C00BE540D /* Frameworks */,
@@ -374,9 +379,9 @@
 			dependencies = (
 				37BE38B71D85438C00BE540D /* PBXTargetDependency */,
 			);
-			name = "Base按钮合集UITests";
+			name = pageFlipUITests;
 			productName = "Base按钮合集UITests";
-			productReference = 37BE38B51D85438C00BE540D /* Base按钮合集UITests.xctest */;
+			productReference = 37BE38B51D85438C00BE540D /* pageFlipUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -385,7 +390,7 @@
 		37BE38891D85438C00BE540D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = WKY;
 				TargetAttributes = {
 					37BE38901D85438C00BE540D = {
@@ -401,7 +406,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 37BE388C1D85438C00BE540D /* Build configuration list for PBXProject "Base按钮合集" */;
+			buildConfigurationList = 37BE388C1D85438C00BE540D /* Build configuration list for PBXProject "pageFlip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -414,9 +419,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37BE38901D85438C00BE540D /* Base按钮合集 */,
-				37BE38A91D85438C00BE540D /* Base按钮合集Tests */,
-				37BE38B41D85438C00BE540D /* Base按钮合集UITests */,
+				37BE38901D85438C00BE540D /* pageFlip */,
+				37BE38A91D85438C00BE540D /* pageFlipTests */,
+				37BE38B41D85438C00BE540D /* pageFlipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -431,6 +436,7 @@
 				37BE38A11D85438C00BE540D /* Assets.xcassets in Resources */,
 				37575F081D869FD800AC0B5A /* pic_1@2x.png in Resources */,
 				37575F091D869FD800AC0B5A /* pic_2@2x.png in Resources */,
+				37BD8F28215E25F500AD2105 /* Default-568h@2x.png in Resources */,
 				37BE389F1D85438C00BE540D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,12 +513,12 @@
 /* Begin PBXTargetDependency section */
 		37BE38AC1D85438C00BE540D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37BE38901D85438C00BE540D /* Base按钮合集 */;
+			target = 37BE38901D85438C00BE540D /* pageFlip */;
 			targetProxy = 37BE38AB1D85438C00BE540D /* PBXContainerItemProxy */;
 		};
 		37BE38B71D85438C00BE540D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37BE38901D85438C00BE540D /* Base按钮合集 */;
+			target = 37BE38901D85438C00BE540D /* pageFlip */;
 			targetProxy = 37BE38B61D85438C00BE540D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -546,13 +552,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -591,13 +607,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -625,7 +651,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Base按钮合集/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/pageFlip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "waveview.Base----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -636,7 +662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Base按钮合集/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/pageFlip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "waveview.Base----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -651,7 +677,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "waveview.Base----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Base按钮合集.app/Base按钮合集";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pageFlip.app/pageFlip";
 			};
 			name = Debug;
 		};
@@ -663,7 +689,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "waveview.Base----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Base按钮合集.app/Base按钮合集";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pageFlip.app/pageFlip";
 			};
 			name = Release;
 		};
@@ -692,7 +718,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37BE388C1D85438C00BE540D /* Build configuration list for PBXProject "Base按钮合集" */ = {
+		37BE388C1D85438C00BE540D /* Build configuration list for PBXProject "pageFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37BE38BC1D85438C00BE540D /* Debug */,
@@ -701,7 +727,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37BE38BE1D85438C00BE540D /* Build configuration list for PBXNativeTarget "Base按钮合集" */ = {
+		37BE38BE1D85438C00BE540D /* Build configuration list for PBXNativeTarget "pageFlip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37BE38BF1D85438C00BE540D /* Debug */,
@@ -710,7 +736,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37BE38C11D85438C00BE540D /* Build configuration list for PBXNativeTarget "Base按钮合集Tests" */ = {
+		37BE38C11D85438C00BE540D /* Build configuration list for PBXNativeTarget "pageFlipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37BE38C21D85438C00BE540D /* Debug */,
@@ -719,7 +745,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37BE38C41D85438C00BE540D /* Build configuration list for PBXNativeTarget "Base按钮合集UITests" */ = {
+		37BE38C41D85438C00BE540D /* Build configuration list for PBXNativeTarget "pageFlipUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37BE38C51D85438C00BE540D /* Debug */,
